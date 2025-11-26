@@ -2,11 +2,9 @@ import i18next from "i18next";
 import { initReactI18next } from "react-i18next";
 import I18nextBrowserLanguageDetector from "i18next-browser-languagedetector";
 import rus from "./translations/ru_translations.json"
-import en from "./translations/en_translations.json"
 
 const resources= {
-  rus,
-  en
+  rus
 };
 
 i18next
