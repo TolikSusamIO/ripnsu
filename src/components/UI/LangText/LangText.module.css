@@ -162,6 +162,14 @@
 }
 
 @media (max-width: 1080px) {
+
+    .lang_text {
+        
+    margin-bottom: 50px;
+    height: 100%;
+    justify-content: start;
+    gap: 30px;
+}
     
     .main_text_container {
         text-align: center;
@@ -228,3 +236,11 @@
 
 }
 
+@media (max-width: 400px) {
+    .circle_text {
+        padding: 10px;
+        min-width: 120px;
+        max-width: 120px;
+        min-height: 120px;
+    }
+}
