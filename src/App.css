@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  font-family: "Gothic";
+}
+
+html {
+  font-size: 21px;
+}
+
+@font-face {
+  font-family: "Gothic";
+  src: url(assets/fonts/GOTHIC.TTF);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Gothic";
+  src: url(assets/fonts/GOTHICB.TTF);
+  font-style: normal;
+  font-weight: bold;
+}
+
+body {
+  background-color: #E7E8E9;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
+.content_container {
+  margin: 0 50px;
+}
+
+.simplebar-scrollbar::before {
+  background-color: #E7E8E9 !important;
+  background: url("src/assets/icons/scrollbar.svg") no-repeat!important;
+  opacity: 1 !important;
+}
+
+
+.simplebar-track {
+  width: 40px !important;
+  background: linear-gradient(to right, transparent 0, transparent 48%, #A7A9AC 48%, #A7A9AC 52%, transparent 52%, transparent 100%);
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 300px;
+}
+
+@media (max-width: 1400px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 900px) {
+  .simplebar-scrollbar::before {
+    background-color: #E7E8E9 !important;
+    background: url("src/assets/icons/scrollbar.svg") no-repeat!important;
+    opacity: 0 !important;
+  }
+
+
+  .simplebar-track {
+    opacity: 0 !important;
+    width: 40px !important;
+    background: linear-gradient(to right, transparent 0, transparent 48%, #A7A9AC 48%, #A7A9AC 52%, transparent 52%, transparent 100%);
+  }
+  
+}
+
+@media (max-width: 700px) {
+    .content_container {
+    margin: 0 16px;
+  }
+
+}

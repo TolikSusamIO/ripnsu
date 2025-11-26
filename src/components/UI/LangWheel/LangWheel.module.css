@@ -1,0 +1,99 @@
+.wheel {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    top: 400px;
+    left: 35%;
+}
+
+.wheel_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("src/assets/icons/wheelLogoBackground.svg");
+    width: 230px;
+    height: 230px;
+}
+
+.wheel_su {
+    width: 146px;
+    height: 146px;
+}
+
+.wheel_circle {
+    transition: 0.5s;
+    transform-origin: 50% 49.5%;
+    width: 205px;
+    height: 205px;
+    position: absolute;
+}
+
+.wheel_buttons {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.wheel_background {
+    position: absolute;
+    width: 460px;
+    height: 460px;
+    z-index: -1;
+}
+
+@media (max-width: 1400px) {
+    .wheel {
+        top: 400px;
+        left: 25%;
+    }
+}
+
+@media (max-width: 1080px) {
+    .wheel {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin: 180px auto 0;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .wheel_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("src/assets/icons/wheelLogoBackground.svg");
+    width: 230px;
+    height: 230px;
+    }   
+
+    .wheel_su {
+        width: 126px;
+        height: 126px;
+    }
+    
+
+    .wheel_background {
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    object-fit: contain;
+    z-index: -1;
+}
+
+    .wheel_buttons {
+        width: 230px;
+        height: 230px;
+        border-radius: 50%;
+        position: absolute;
+    }
+
+    .wheel_circle {
+        width: 175px;
+        height: 175px;
+    }
+}

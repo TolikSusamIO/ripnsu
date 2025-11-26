@@ -1,0 +1,146 @@
+.specialists {
+    margin-top: 66px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    color: #2E51A4;
+    font-size: 2.209rem;
+    text-transform: uppercase;
+}
+
+.specialists_list {
+    margin-top: 30px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.specialists_item h2 {
+    color: #ED1C24;
+    text-transform: uppercase;
+    font-size: 1.125rem;
+}
+
+.specialists_item p {
+    font-size: 0.813rem;
+}
+
+.specialists_item div{
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.specialists_container {
+    display: flex;
+    gap: 100px;
+}
+
+.specialists_text {
+    width: 60%;
+    overflow: auto;
+}
+
+.scroll {
+    max-height: 600px;
+    padding-right: 50px;
+}
+
+.simplebar-scrollbar::before {
+    color: #ED1C24;
+}
+
+.specialists_text h2 {
+    color: #ED1C24;
+    text-align: center;
+}
+
+.specialists_text p {
+    margin-top: 20px;
+}
+
+.text_heading img {
+    display: none;
+}
+
+@media (max-width: 1080px) {
+    .scroll {
+        max-height: 700px;
+    }
+
+    .specialists_item div{
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+ .specialists_container {
+        display: flex;
+        gap: 40px;
+    }
+}
+
+
+@media (max-width: 900px) {
+       
+
+        .specialists_list {
+        width: 100%;
+        gap: 50px;
+        margin-top: 30px;
+    }
+
+    .specialists_text h2 {
+        font-size: 1.8rem;
+}
+
+    .specialists_text {
+        background-color: #E7E8E9;
+        width: 100%;
+        min-height: 800px;
+        overflow: hidden;
+        left: 0;
+        margin-top: -100px;
+        padding: 50px 16px;
+    }
+
+    .specialists_text {
+        font-size: 0.8rem;
+    }
+
+    .scroll {
+        max-height: 100%;
+        padding: 0;
+    }
+
+    .specialists_text {
+        position: absolute;
+    }
+
+    .specialists_container {
+    gap: 0;
+}
+
+    .specialists_item div{
+        margin-top: 12px;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .text_heading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .text_heading img {
+        display: block;
+        width: 30px;
+        height: 30px;
+    }
+}

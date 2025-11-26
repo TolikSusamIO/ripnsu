@@ -1,0 +1,29 @@
+
+
+.search_button {
+    border: none;
+    padding: 0;
+    background-color: white;
+}
+
+.search_button img{
+    cursor: pointer;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.search_input {
+    font-size: 1rem;
+    border: none;
+    outline: none;
+}
+
+.mobile_search {
+    display: none;
+}
+
+@media (max-width: 700px) {
+    .search {
+        display: none;
+    }
+}

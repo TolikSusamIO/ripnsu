@@ -1,0 +1,62 @@
+.lang_rotation {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 0 0 ;
+}
+
+.lang_button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    max-width: min-content;
+}
+
+.lang_name {
+    position: absolute;
+    font-size: 0.563rem;
+    font-weight: normal;
+}
+
+.lang_key {
+    font-size: 0.8rem;
+    width: 54.88px;
+    height: 54.88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.lang_key:hover{
+    cursor: pointer;
+    background-color: #2E51A4;
+}
+
+.active {
+    font-size: 0.8rem;
+    width: 54.88px;
+    height: 54.88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #ED1C24;
+}
+
+@media (max-width: 400px) {
+    .active {
+        font-size: 0.9rem;
+        width: 48.88px;
+        height: 48.88px;
+    }
+    .lang_key {
+        font-size: 0.9rem;
+        width: 48.88px;
+        height: 48.88px;
+    }
+}

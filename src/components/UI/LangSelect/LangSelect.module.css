@@ -1,0 +1,60 @@
+.current_language {
+    cursor: pointer;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ED1C24;
+    border-radius: 50%;
+    font-weight: bold;
+    width: 3em;
+    height: 3em;
+    color: white;
+    text-transform: uppercase;
+}
+
+.language_item {
+     cursor: pointer;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A7A9AC;
+    border-radius: 50%;
+    font-weight: bold;
+    width: 3em;
+    height: 3em;
+    color: white;
+    text-transform: uppercase;
+}
+
+.language_item:hover {
+    background-color: #2E51A4;
+}
+
+.language_list {
+    padding-top: 15px;
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    gap: 15px;
+    z-index: 20;
+}
+
+.language:hover .language_list{
+    display: flex;
+    animation: slide-down 0.5s;
+}
+
+.language_list:hover {
+    display: flex;
+}
+
+@keyframes slide-down{
+    from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+}

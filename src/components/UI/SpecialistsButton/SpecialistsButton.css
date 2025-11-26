@@ -1,0 +1,30 @@
+
+.specialists_item_button {
+    cursor: pointer;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    background-color: #2E51A4;
+    min-width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.specialists_item_button img{ 
+    margin-left: 5px;
+    height: 45px;
+    width: 30px;
+}
+
+.active{
+    background-color: #ED1C24;;
+}
+
+@media (max-width: 1070px) {
+    .specialists_item_button {
+        min-width: 70px;
+        height: 70px;
+    }
+}
