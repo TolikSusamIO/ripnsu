@@ -36,17 +36,17 @@ function LangWheel({setBackground, langText, setLangText}) {
 
 
   const langButtons = [
-    {langName: t("main.GR.heading"), langLetters:"GR", background: "src/assets/img/greece.jpg"},
-    {langName: t("main.HI.heading"), langLetters:"HI", background: "src/assets/img/india.jpg"},
-    {langName: t("main.CHI.heading"), langLetters:"CHI", background: "src/assets/img/china.jpg"},
-    {langName: t("main.THA.heading"), langLetters:"THA", background: "src/assets/img/thai.jpg"},
-    {langName: t("main.KOR.heading"), langLetters:"KOR", background: "src/assets/img/korea.jpg"},
-    {langName: t("main.LA.heading"), langLetters:"LA", background: "src/assets/img/latin.jpg"},
-    {langName: t("main.RUS.heading"), langLetters:"RUS", background: "src/assets/img/russian.jpg"},
-    {langName: t("main.ARM.heading"), langLetters:"ARM", background: "src/assets/img/armenia.jpeg"},
-    {langName: t("main.GE.heading"), langLetters:"GE", background: "src/assets/img/georgia.jpg"},
-    {langName: t("main.ISR.heading"), langLetters:"ISR", background: "src/assets/img/israel.jpg"},
-    {langName: t("main.ARB.heading"), langLetters:"ARB", background: "src/assets/img/arabic.jpg"},
+    {langName: t("main.GR.heading"), langLetters:"GR", background: "greece"},
+    {langName: t("main.HI.heading"), langLetters:"HI", background: "india"},
+    {langName: t("main.CHI.heading"), langLetters:"CHI", background: "china"},
+    {langName: t("main.THA.heading"), langLetters:"THA", background: "thai"},
+    {langName: t("main.KOR.heading"), langLetters:"KOR", background: "korea"},
+    {langName: t("main.LA.heading"), langLetters:"LA", background: "latin"},
+    {langName: t("main.RUS.heading"), langLetters:"RUS", background: "russian"},
+    {langName: t("main.ARM.heading"), langLetters:"ARM", background: "armenia"},
+    {langName: t("main.GE.heading"), langLetters:"GE", background: "georgia"},
+    {langName: t("main.ISR.heading"), langLetters:"ISR", background: "israel"},
+    {langName: t("main.ARB.heading"), langLetters:"ARB", background: "arabic"},
   ]
 
   return (

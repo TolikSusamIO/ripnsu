@@ -7,12 +7,17 @@ function Search({className}) {
     const [search, setSearch] = useState("")
       const onSumbitHandle = (event) => {
         event.preventDefault();
+        let currentSearch = search
         if(!search) return
+        console.log(search.search(".su"))
+        if(search.search(".su")){
+          currentSearch = search.split(".")[0]
+        }
         if(i18n.language == "rus") {
-            window.location.href = `https://beget.com/ru/domains/search/${search}.su`
+            window.location.href = `https://beget.com/ru/domains/search/${currentSearch}.su`
         }
         else {
-            window.location.href = `https://beget.com/en/domains/search/${search}.su`
+            window.location.href = `https://beget.com/en/domains/search/${currentSearch}.su`
         }
       }
   return (

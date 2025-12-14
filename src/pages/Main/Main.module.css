@@ -19,6 +19,11 @@
     z-index: -1;
 }
 
+.unactive_background {
+    opacity: 0;
+    position: absolute;
+}
+
 .lang_text_conteiner {
     width: 100%;
     height: 800px;

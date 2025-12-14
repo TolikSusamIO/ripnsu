@@ -4,21 +4,30 @@
     border: none;
     padding: 0;
     background-color: white;
+    background-color: #2E51A4;
 }
 
 .search_button img{
+    fill: white;
     cursor: pointer;
-    width: 1.5em;
-    height: 1.5em;
+    width: 1.4em;
+    height: 1.4em;
+}
+
+.search_input::placeholder {
+    color: white;
 }
 
 .search_input {
+    color: white;
+    background-color: #2E51A4;
     font-size: 1rem;
     border: none;
     outline: none;
 }
 
 .mobile_search {
+    background-color: #2E51A4;
     display: none;
 }
 
