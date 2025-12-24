@@ -9,14 +9,14 @@ html {
 
 @font-face {
   font-family: "Gothic";
-  src: url(assets/fonts/GOTHIC.TTF);
+  src: url(/assets/fonts/GOTHIC.TTF);
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: "Gothic";
-  src: url(assets/fonts/GOTHICB.TTF);
+  src: url(/assets/fonts/GOTHICB.TTF);
   font-style: normal;
   font-weight: bold;
 }
@@ -49,7 +49,7 @@ img {
 
 .simplebar-scrollbar::before {
   background-color: #E7E8E9 !important;
-  background: url("src/assets/icons/scrollbar.svg") no-repeat!important;
+  background: url("/assets/icons/scrollbar.svg") no-repeat!important;
   opacity: 1 !important;
 }
 
@@ -80,7 +80,7 @@ img {
 @media (max-width: 900px) {
   .simplebar-scrollbar::before {
     background-color: #E7E8E9 !important;
-    background: url("src/assets/icons/scrollbar.svg") no-repeat!important;
+    background: url("/assets/icons/scrollbar.svg") no-repeat!important;
     opacity: 0 !important;
   }
 

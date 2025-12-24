@@ -8,7 +8,7 @@ import ContactsService from '../../API/ContactsService/ContactsService';
 function Contacts() {
   const { t } = useTranslation();
   const captchaRef = React.createRef()
-  const [contactForm, setContactForm] = useState({email: "", theme: "", message: "", capthcha: false})
+  const [contactForm, setContactForm] = useState({email: "", theme: "", message: "", captcha: false})
   const [inputRequired, setInputRequired] = useState(false)
   const [errorMessage, setErrorMessage] = useState("")
   async function createMessage (event) {
@@ -31,7 +31,7 @@ function Contacts() {
                           width: "500px"
                         },
                     })
-        setContactForm({email: "", theme: "", message: "", capthcha: false})
+        setContactForm({email: "", theme: "", message: "", captcha: false})
         setInputRequired(false);
         setErrorMessage(false)
         captchaRef.current.reset()
@@ -63,7 +63,7 @@ function Contacts() {
                       required={inputRequired} 
                       value={contactForm.message} 
                       onChange={e => setContactForm({...contactForm, message: e.target.value})}/>
-            <ReCAPTCHA ref={captchaRef} sitekey='6LcMCREsAAAAAGB2r3LfIhJSYWsohjpHJierLoWP' onChange={() => setContactForm({...contactForm, capthcha: true})}/>
+            <ReCAPTCHA ref={captchaRef} sitekey='6LcMCREsAAAAAGB2r3LfIhJSYWsohjpHJierLoWP' onChange={() => setContactForm({...contactForm, captcha: true})}/>
             <p className={cl.error}>{errorMessage}</p>
             <button onClick={createMessage}>{t("contacts.button")}</button>
         </form>

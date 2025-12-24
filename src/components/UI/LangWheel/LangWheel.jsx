@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import LangButton from '../LangButton/LangButton'
-import cl from "./langWheel.module.css"
+import cl from "./LangWheel.module.css"
 import { useTranslation } from 'react-i18next';
 
 function LangWheel({setBackground, langText, setLangText}) {
@@ -51,7 +51,7 @@ function LangWheel({setBackground, langText, setLangText}) {
 
   return (
     <div className={cl.wheel}>
-      <img src="src/assets/icons/wheelBackground.svg" alt="" className={cl.wheel_background}/>
+      <img src="/assets/icons/wheelBackground.svg" alt="" className={cl.wheel_background}/>
       <div className={cl.wheel_buttons}>
         {langButtons.map((button, index) => 
           <LangButton 
@@ -66,8 +66,8 @@ function LangWheel({setBackground, langText, setLangText}) {
         )}
       </div>
       <div className={cl.wheel_logo}>
-        <img src="src/assets/icons/wheelCircle.svg" alt="Колесо" className={cl.wheel_circle} style={circleRotation}/>
-        <img src="src/assets/icons/wheelLogo.svg" alt="Логотип" className={cl.wheel_su}/>
+        <img src="/assets/icons/wheelCircle.svg" alt="Колесо" className={cl.wheel_circle} style={circleRotation}/>
+        <img src="/assets/icons/wheelLogo.svg" alt="Логотип" className={cl.wheel_su}/>
       </div>
     </div>
   )

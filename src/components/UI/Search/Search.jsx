@@ -29,7 +29,7 @@ function Search({className}) {
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}/>
               <button  className={cl.search_button} type="submit">
-                <img alt='Кнопка поиска' src="src/assets/icons/search.svg" />
+                <img alt='Кнопка поиска' src="/assets/icons/search.svg" />
               </button>
             </form>
   )

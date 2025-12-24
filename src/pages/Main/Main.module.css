@@ -8,7 +8,7 @@
 
 .main_background {
     object-fit: cover;
-    background: url("src/assets/img/main-Gray.jpg");
+    background: url("/assets/img/main-Gray.jpg");
     transform: scale(-1, 1);
     background-size: cover;
     position: absolute;

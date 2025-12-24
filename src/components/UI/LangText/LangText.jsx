@@ -43,7 +43,7 @@ function LangText({langText}) {
                                     br: <br/>
                                 }}/>
                         </h2>
-                        <img className={cl.su} src="src/assets/icons/su.svg" alt=".su" />
+                        <img className={cl.su} src="/assets/icons/su.svg" alt=".su" />
                     </div>
                     <p>
                         <Trans

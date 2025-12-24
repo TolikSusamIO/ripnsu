@@ -12,7 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("src/assets/icons/wheelLogoBackground.svg");
+    background-image: url("/assets/icons/wheelLogoBackground.svg");
     width: 230px;
     height: 230px;
 }
@@ -66,7 +66,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("src/assets/icons/wheelLogoBackground.svg");
+    background-image: url("/assets/icons/wheelLogoBackground.svg");
     width: 230px;
     height: 230px;
     }   

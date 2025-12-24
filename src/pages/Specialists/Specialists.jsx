@@ -46,7 +46,7 @@ function Specialists() {
               <SimpleBar scrollbarMaxSize={40} autoHide={false} className={cl.scroll}>
                 <div className={cl.text_heading}>
                   <h2>{t("specialists." + currentText + ".heading")}</h2>
-                  <img src="src/assets/icons/close-black.svg" onClick={() => setCurrentText("none")}/>
+                  <img src="/assets/icons/close-black.svg" onClick={() => setCurrentText("none")}/>
                 </div>
                 <p>{t("specialists." + currentText + ".text")}</p>
               </SimpleBar>

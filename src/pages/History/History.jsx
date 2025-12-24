@@ -8,7 +8,7 @@ function History() {
     <main className={cl.history}>
         <div className={cl.history_heading}>
                 <h1>{t("history.heading1")} <br/> {t("history.heading2")}</h1>
-                <img src="src/assets/icons/su.svg" alt="" />
+                <img src="/assets/icons/su.svg" alt="" />
         </div>
         <ul className={cl.history_list}>
             <li className={cl.history_item}>

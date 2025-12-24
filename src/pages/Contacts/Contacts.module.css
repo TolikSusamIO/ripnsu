@@ -81,7 +81,7 @@
 
 .contacts_image {
     position: absolute;
-    background-image: url("src/assets/img/contacts.jpg");
+    background-image: url("/assets/img/contacts.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: -150px 0;
