@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_2" data-name="Слой 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 199.33 199.33">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-size: 36px;
+      }
+
+      .cls-2 {
+        font-family: AdobeMyungjoStd-Medium-KSCpc-EUC-H, 'Adobe Myungjo Std';
+        font-weight: 500;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+
+      .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-4 {
+        fill: #2e52a4;
+      }
+
+      .cls-6 {
+        font-family: MicrosoftSansSerif, 'Microsoft Sans Serif';
+      }
+    </style>
+    <clipPath id="clippath">
+      <path class="cls-3" d="m191.66,137.93c-21.13,50.81-79.45,74.87-130.26,53.74C10.59,170.53-13.47,112.21,7.66,61.4,28.8,10.59,87.12-13.47,137.93,7.67c50.81,21.13,74.87,79.45,53.74,130.26Z"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1">
+    <path class="cls-4" d="m199.3,99.66c0,55.03-44.61,99.64-99.64,99.64S.03,154.69.03,99.66,44.64.03,99.67.03s99.64,44.61,99.64,99.64Z"/>
+  </g>
+  <g id="Layer_3" data-name="Layer 3">
+    <g class="cls-5">
+      <text class="cls-1" transform="translate(32.99 -4.6) rotate(22.58)"><tspan class="cls-2" x="0" y="0">영변</tspan><tspan class="cls-6" x="72" y="0">(</tspan><tspan class="cls-2" x="83.99" y="0">寧邊</tspan><tspan class="cls-6" x="155.99" y="0">)</tspan><tspan class="cls-2" x="167.98" y="0">에</tspan><tspan class="cls-6" x="203.98" y="0"> </tspan><tspan class="cls-2" x="18" y="43.2">약산</tspan><tspan class="cls-6" x="90" y="43.2">(</tspan><tspan class="cls-2" x="101.99" y="43.2">藥山</tspan><tspan class="cls-6" x="173.99" y="43.2">)</tspan><tspan class="cls-2" x="7.21" y="86.4">동백꽃</tspan><tspan class="cls-6" x="115.21" y="86.4"> </tspan><tspan class="cls-2" x="124.77" y="86.4">밝을</tspan><tspan class="cls-6" x="196.77" y="86.4"> </tspan><tspan class="cls-2" x="25.21" y="129.6">오실</tspan><tspan class="cls-6" x="97.21" y="129.6"> </tspan><tspan class="cls-2" x="106.77" y="129.6">적에</tspan><tspan class="cls-2" x="43.21" y="172.8">그</tspan><tspan class="cls-6" x="79.21" y="172.8"> </tspan><tspan class="cls-2" x="88.77" y="172.8">꽃을</tspan><tspan class="cls-6" x="160.77" y="172.8"> </tspan><tspan class="cls-2"><tspan x="29.99" y="216">오려다가</tspan></tspan></text>
+    </g>
+  </g>
+</svg>

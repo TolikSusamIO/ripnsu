@@ -16,9 +16,7 @@ function LangText({langText}) {
             <div className={cl.circle_text_wrap}>
                 <p>{t("main." + langText + ".p2")}</p>
                 <div>
-                    <div className={cl.circle_text}>
-                        {t("main." + langText + ".circle")}
-                    </div>
+                    <img className={cl.circle} src={t("main." + langText + ".circle")}></img>
                 </div>
             </div>
         </div>

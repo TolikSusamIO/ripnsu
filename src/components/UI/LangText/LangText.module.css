@@ -99,6 +99,7 @@
 
 
 .lang_text h1{
+    width: 100%;
     font-size: 4rem;
     text-transform: uppercase;
     color: #ED1C24;
@@ -116,15 +117,9 @@
     gap: 20px;
 }
 
-.circle_text {
-    min-width: 230px;
-    min-height: 230px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #2E51A4;
-    color: white;
+.circle {
+    width: 230px;
+    height: 230px;
 }
 
 .lang_text_main p {
@@ -215,16 +210,10 @@
     .lang_text_main p {
     margin-top: 20px;
 }    
-    .circle_text {
-        min-width: 180px;
-        min-height: 180px;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #2E51A4;
-        color: white;
-    }
+    .circle {
+    width: 180px;
+    height: 180px;
+}
 
       .su_container {
         margin-left: 0px;
@@ -237,10 +226,8 @@
 }
 
 @media (max-width: 400px) {
-    .circle_text {
-        padding: 10px;
-        min-width: 120px;
-        max-width: 120px;
-        min-height: 120px;
-    }
+    .circle {
+    width: 120px;
+    height: 120px;
+}
 }

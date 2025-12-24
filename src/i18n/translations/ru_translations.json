@@ -36,67 +36,67 @@
                 "heading": "Латиница",
                 "p1": "Text Text Text Text Text",
                 "p2": "Text Text Text Text Text",
-                "circle": "Text Text Text Text Text"
+                "circle": "assets/icons/langCircles/circle_lat.svg"
             },
             "RUS":{
                 "heading": "Кириллица",
                 "p1": "Text Text Text Text Text",
                 "p2": "Text Text Text Text Text",
-                "circle": "Text Text Text Text Text"
+                "circle": "assets/icons/langCircles/circle_rus.svg"
             },
             "ARM": {
                 "heading": "Армянский",
                 "p1": "Text Text Text Text Text",
                 "p2": "Text Text Text Text Text",
-                "circle": "Text Text Text Text Text"
+                "circle": "assets/icons/langCircles/circle_arm.svg"
             },
             "GE": {
                 "heading": "Грузинский",
                 "p1": "Text Text Text Text Text",
                 "p2": "Text Text Text Text Text",
-                "circle": "Text Text Text Text Text"
+                "circle": "assets/icons/langCircles/circle_geo.svg"
             },
             "ISR": {
                 "heading": "Иврит",
                 "p1": "Text Text Text Text Text",
-                "p2": "Text Text Text Text Text",
-                "circle": "Text Text Text Text Text"
+                "p2": "Text Text Text Text Text Text Text Text",
+                "circle": "assets/icons/langCircles/circle_isr.svg"
             },
             "ARB": {
                 "heading": "Арабский",
                 "p1": "Text Text Text Text Text",
                 "p2": "Text Text Text Text Text",
-                "circle": "Text Text Text Text Text"
+                "circle": "assets/icons/langCircles/circle_arb.svg"
             },
             "GR": {
                 "heading": "Греческий",
                 "p1": "Text Text Text Text Text",
                 "p2": "Text Text Text Text Text",
-                "circle": "Text Text Text Text Text"
+                "circle": "assets/icons/langCircles/circle_gre.svg"
             },
             "HI": {
                 "heading": "Хинди",
                 "p1": "Text Text Text Text Text",
                 "p2": "Text Text Text Text Text",
-                "circle": "Text Text Text Text Text"
+                "circle": "assets/icons/langCircles/circle_hin.svg"
             },
             "CHI": {
                 "heading": "Китайский",
                 "p1": "Text Text Text Text Text",
                 "p2": "Text Text Text Text Text",
-                "circle": "Text Text Text Text Text"
+                "circle": "assets/icons/langCircles/circle_chn.svg"
             },
             "THA": {
                 "heading": "Тайский",
                 "p1": "Text Text Text Text Text",
                 "p2": "Text Text Text Text Text",
-                "circle": "Text Text Text Text Text"
+                "circle": "assets/icons/langCircles/circle_tha.svg"
             },
             "KOR": {
                 "heading": "Корейский",
                 "p1": "Text Text Text Text Text",
                 "p2": "Text Text Text Text Text",
-                "circle": "Text Text Text Text Text"
+                "circle": "assets/icons/langCircles/circle_kor.svg"
             }
         },
         "specialists": {

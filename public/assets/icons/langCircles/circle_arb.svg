@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_2" data-name="Слой 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 199.33 199.33">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-family: AdobeArabic-Bold, 'AdobeArabic Bold';
+        font-size: 43px;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-3 {
+        fill: #2e52a4;
+      }
+    </style>
+    <clipPath id="clippath">
+      <path class="cls-2" d="m191.66,137.93c-21.13,50.81-79.45,74.87-130.26,53.74C10.59,170.53-13.47,112.21,7.66,61.4,28.8,10.59,87.12-13.47,137.93,7.67c50.81,21.13,74.87,79.45,53.74,130.26Z"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1">
+    <path class="cls-3" d="m199.3,99.66c0,55.03-44.61,99.64-99.64,99.64S.03,154.69.03,99.66,44.64.03,99.67.03s99.64,44.61,99.64,99.64Z"/>
+  </g>
+  <g id="Layer_3" data-name="Layer 3">
+    <g class="cls-4">
+      <text class="cls-1" transform="translate(18.32 -22.16) rotate(22.58)"><tspan x="0" y="0">وَلَيْلٍ كَمَوْجِ الْبَحْرِ </tspan><tspan x="42.3" y="51.6">أَرْخَى سُدُولَهُ</tspan><tspan x="-3.15" y="103.2">عَلَيَّ بِأَنْوَاعِ الْهُمُومِ </tspan><tspan x="56.4" y="154.8">لِيَبْتَلِي</tspan><tspan x="30.44" y="206.4">فَقُلْتُ لَهُ لَمَّا </tspan></text>
+    </g>
+  </g>
+</svg>
